@@ -22,12 +22,12 @@ function fizzBuzz(){
     console.log(combinedlenght)
 
     //Check the combined lenght for Fizzbuzz conditions
-    if (combinedlenght % 3 === 0){
-        console.log("Fizz");
+    if (combinedlenght % 3 === 0 && combinedlenght % 5 === 0){
+        console.log("fizzBuzz"); 
     }else if (combinedlenght % 5 === 0){
         console.log("Buzz");
-    }else if (combinedlenght % 3 === 0 && combinedlenght % 5 === 0){
-        console.log("fizzBuzz");
+    }else if(combinedlenght % 3 === 0){
+        console.log("Fizz");
     }else{
         console.log("Cannot be divided by 3 or 5")
     }   
