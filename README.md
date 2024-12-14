@@ -33,3 +33,7 @@ As computed it will take an array of numbers and a target number and logs the in
 ## Palindrome
 
 Check for the palindrome word in the given array and return the first word
+
+## Add reapetedly
+
+Add a given number by itself till you get one single value
