@@ -15,6 +15,20 @@
  * 
  * reapetedly add the number until u get one digit
  * 
+ * For example
+ * 
+ * For input = 123:
+
+ * Initial State: sum = 0, array = ["1", "2", "3"]
+
+ * First Iteration: sum = 0 + Number("1") = 0 + 1 = 1
+
+ * Second Iteration: sum = 1 + Number("2") = 1 + 2 = 3
+
+ * Third Iteration: sum = 3 + Number("3") = 3 + 3 = 6
+
+ * Final Result: input = 6
+ * 
  * return the result digit
  * 
  * log the result in the console
