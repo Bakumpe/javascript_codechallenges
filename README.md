@@ -29,3 +29,7 @@ As computed it will take the sum of chars and divide them by 3 or 5 if the modul
 ## Two sums
 
 As computed it will take an array of numbers and a target number and logs the indices of the numbers that add upto the target.
+
+## Palindrome
+
+Check for the palindrome word in the given array and return the first word
